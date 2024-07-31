@@ -4,5 +4,7 @@ This repository is for the open source code of the manuscript "Disentangle the G
 # Prerequisites
 Pytorch, Numpy, Pandas, Scipy
 
-To Do  List
-1. 
+# To Do  List
+1. Detailed Environment Configuration
+2. Pretrained BRASDE
+3. Comparison Methods
