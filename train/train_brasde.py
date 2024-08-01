@@ -45,7 +45,7 @@ def iteration(x1, x2, enc_ind, enc_grp, decoder):
     x2_crs_grp = x2_ind + torch.concatenate((x1_grp[half:,:,:], x1_grp[:half,:,:]), axis=0)
     l_grp = F.mse_loss(x1, x1_crs_grp) + F.mse_loss(x2, x2_crs_grp)
 
-    loss = l_ind + 0.5*l_grp
+    loss = l_ind + 2*l_grp
 
     return loss, l_ind, l_grp, l_rec
 
