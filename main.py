@@ -38,8 +38,7 @@ parser.add_argument('--wd', type=float, default=0.0001)  # Weight decay
 args = parser.parse_args()
 
 def main():
-    # Define different scanning times
-    # time_list = [10, 20, 30, 50, 100, 150, 176]
+    # the length of time series
     time_list = [176]
 
     # Generate all possible task pairs
