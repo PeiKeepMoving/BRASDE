@@ -6,7 +6,7 @@ Pytorch, Numpy, Pandas, Scipy
 
 # To Do  List
 1. Detailed Environment Configuration
-2. Pretrained BRASDE
+2. Pretrained BRASDE (Done)
 3. Comparison Methods
 
 # Contact Us
